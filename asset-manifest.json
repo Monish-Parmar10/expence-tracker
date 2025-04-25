@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/expence-tracker/static/css/main.60757b04.css",
+    "main.js": "/expence-tracker/static/js/main.0c097958.js",
+    "index.html": "/expence-tracker/index.html",
+    "main.60757b04.css.map": "/expence-tracker/static/css/main.60757b04.css.map",
+    "main.0c097958.js.map": "/expence-tracker/static/js/main.0c097958.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60757b04.css",
+    "static/js/main.0c097958.js"
+  ]
+}
