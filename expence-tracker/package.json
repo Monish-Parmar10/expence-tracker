@@ -1,7 +1,7 @@
 {
   "name": "expence-tracker",
   "version": "0.1.0",
-  "homepage": "https://Monish-Parmar10.github.io/<expence-tracker1", 
+  "homepage": "https://Monish-Parmar10.github.io/expence-tracker", 
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
