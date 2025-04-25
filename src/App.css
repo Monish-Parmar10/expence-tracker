@@ -1,0 +1,225 @@
+/* Modern Expense Tracker CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  --primary: #4361ee;
+  --secondary: #3f37c9;
+  --accent: #4895ef;
+  --light: #f8f9fa;
+  --dark: #212529;
+  --success: #4cc9f0;
+  --danger: #f72585;
+  --warning: #f8961e;
+  --border-radius: 12px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  color: var(--dark);
+}
+
+.App {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: var(--border-radius);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Header Styles */
+.App h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 2.2rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.App h1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+/* Form Styles */
+form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+  background: var(--light);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.03);
+}
+
+input, select {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: var(--border-radius);
+  font-family: inherit;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.2);
+}
+
+/* Button Styles */
+button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+button:hover {
+  background-color: var(--secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(67, 97, 238, 0.2);
+}
+
+button.secondary {
+  background-color: white;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+button.secondary:hover {
+  background-color: rgba(67, 97, 238, 0.05);
+}
+
+/* Expense List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+li {
+  background: white;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.expense-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.expense-title {
+  font-weight: 500;
+  color: var(--dark);
+}
+
+.expense-amount {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.expense-date {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+/* Total Spent Display */
+.total-spent {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: rgba(67, 97, 238, 0.1);
+  border-radius: var(--border-radius);
+  color: var(--primary);
+}
+
+/* Filter/Sort Controls */
+.filter-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-controls > * {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* Advice Section */
+.advice-box {
+  background: linear-gradient(135deg, rgba(72, 149, 239, 0.1) 0%, rgba(67, 97, 238, 0.1) 100%);
+  border-left: 4px solid var(--accent);
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: var(--border-radius);
+}
+
+.advice-box h3 {
+  margin-top: 0;
+  color: var(--primary);
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+  color: #6c757d;
+}
+
+.empty-state svg {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .App {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+  
+  form {
+    grid-template-columns: 1fr;
+  }
+}
