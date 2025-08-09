@@ -8,15 +8,6 @@ Problem Statement 1 - Weave AI magic with Groq.
 🎯 Objective
 Many teenagers and adults struggle with managing their daily expenses effectively, leading to poor financial habits and lack of savings awareness.(mostly use by college students and teenagers)
 
-🧠 Team & Approach
-Team Name: 
-Predictor
-
-Team Members: 
-Monish Parmar (Team Leader): (Project planning, frontend development and GitHub management)
-Mayank Lovanshi: (Backend logic and data handling)
-Mohit Mourya: (UI/UX design and user interface development)
-Harshita Gupta: (Testing, documentation, and quality assurance)
 
 Your Approach:
   We chose the problem of managing expenses because many teenagers and adults struggle to track their daily spending. A simple, smart expense tracker can help users stay organized, save money, and build better financial habits.
@@ -61,10 +52,6 @@ Highlight the most important features of your project:
 Demo Video Link: [https://youtu.be/10jj3rHZGA0?si=DKFRs8uc37yWYl09]
 Pitch Deck / PPT Link: [https://1drv.ms/p/c/a6a53f52118c9dc0/EZD0Op2ISq1Fnt3sUFkUXQABiOYyQ2XHMZloeSRMFjajbA?e=3Lncex]
 
-✅ Tasks & Bonus Checklist
-
-✅ All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form (Details in Participant Manual)
-✅ All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points) (Details in Participant Manual)
 
 🧪 How to Run the Project
 Requirements:
@@ -93,8 +80,3 @@ Advanceed AI insight use groq api more deeply.
 🛡️ Security enhancements
 Save user data securely using cloud databases instead of just local storage.
 
-🏁 Final Words
-
-
-First we did know how to start because we did not have much experience yet (we are in 1st year so) but then we start asking with some seniors then we got an idea. after diving the roles we start priparing and learing and parallelly we also start implimentation
-then day by day at specific time we do something that approch us near to our complition. Then all set 👍.  
