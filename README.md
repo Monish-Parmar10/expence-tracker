@@ -1,13 +1,8 @@
 🚀 Project Title
 Your smart companion for managing and controlling daily expenses effortlessly."
 
-📌 Problem Statement
-Problem Statement 1 - Weave AI magic with Groq.
-(To build a simple, smart web-based application where users can easily track their expenses, manage their spending, and develop better financial habits.)
-
 🎯 Objective
 Many teenagers and adults struggle with managing their daily expenses effectively, leading to poor financial habits and lack of savings awareness.(mostly use by college students and teenagers)
-
 
 Your Approach:
   We chose the problem of managing expenses because many teenagers and adults struggle to track their daily spending. A simple, smart expense tracker can help users stay organized, save money, and build better financial habits.
@@ -20,7 +15,6 @@ Brainstorming & Pivots:
 
 We discussed different ideas like building a budgeting app or reminder tool, but finally focused on an expense tracker.
 We refined the design to make it clean, modern, and easy to navigate after feedback from team discussions.
-
 
 🛠️ Tech Stack
 Core Technologies Used:
@@ -46,11 +40,6 @@ Highlight the most important features of your project:
 ✅ Modern User Interface: Clean, minimal, and responsive design for better user experience.
 
 ✅ Smart Expense Insights (using Groq): Future scope to give spending suggestions based on expenses.
-
-📽️ Demo & Deliverables
-
-Demo Video Link: [https://youtu.be/10jj3rHZGA0?si=DKFRs8uc37yWYl09]
-Pitch Deck / PPT Link: [https://1drv.ms/p/c/a6a53f52118c9dc0/EZD0Op2ISq1Fnt3sUFkUXQABiOYyQ2XHMZloeSRMFjajbA?e=3Lncex]
 
 
 🧪 How to Run the Project
