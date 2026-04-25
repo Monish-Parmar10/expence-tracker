@@ -212,7 +212,7 @@ li:hover {
   opacity: 0.5;
 }
 
-/* Responsive Adjustments */
+
 @media (max-width: 768px) {
   .App {
     padding: 1.5rem;

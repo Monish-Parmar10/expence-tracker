@@ -35,7 +35,7 @@ We refined the design to make it clean, modern, and easy to navigate after feedb
 Core Technologies Used:
 Frontend:  Reat.js, HTML, CSS, JavaScript
 Database:Local Storage
-APIs: Groq API
+
 Hosting: GitHub Pages
 
 Sponsor Technologies Used:
